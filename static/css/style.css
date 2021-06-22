@@ -1,4 +1,4 @@
-@import "../fonts/fonts.css" ;
+@import "../fonts/iconfont.css" ;
 /*背景图*/
 html,body{
     width: 100%;
@@ -179,16 +179,42 @@ a:active {
     color: #8800ff; /*鼠标按下的颜色变化*/
 }
 
-.btn {
-    /*display: none;*/
+.top {
+    display: none; /* 默认隐藏 */
     position: fixed;
-    bottom: 5%;
-    right: 5%;
+    bottom: 20px;
+    right: 10px;
     z-index: 99;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 10px;
-    border-radius: 100%; /* 圆角 */
+    border-radius: 10px; /* 圆角 */
+}
+.iconfont {
+  font-family: iconfont,serif;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.icon-jiediankaishi:before {
+  content: "\e6dd";
+}
+
+.icon-center:before {
+  content: "\e618";
+}
+
+.icon-zanting:before {
+  content: "\e693";
+}
+
+.icon-shangyishou:before {
+  content: "\e603";
+}
+
+.icon-xiayishou:before {
+  content: "\e602";
 }

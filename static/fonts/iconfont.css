@@ -1,4 +1,9 @@
 @font-face {
+  font-family: iconfont;
+  src: url("iconfont.ttf");
+}
+
+@font-face {
     font-family: Easy;
     src: url("easy.ttf");
 }
